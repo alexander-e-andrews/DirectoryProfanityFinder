@@ -81,10 +81,16 @@ class fileTree:
                         if entry.name.endswith(tuple(acceptedTypes)):
                             #print(entry.name + " " + entry.path)
                             self.files.append(entry.path)
+                        else:
+                            print("Ignored: " + entry.name)
+                    else:
+                        print("Ignored: " + entry.name)
                 elif entry.is_dir():
                     if (entry.name not in ignoreDirs) and not (entry.name.startswith(tuple(ignoreDirsBWild))):
                         print(entry.name + " " + entry.path)
-                        #self.directories.append(fileTree(entry.path))
+                        self.directories.append(fileTree(entry.path))
+                    else:
+                        print("Ignored: " + entry.name)
     
     def toString(self):
         stR  = self.directory
