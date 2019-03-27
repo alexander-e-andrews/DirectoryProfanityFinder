@@ -2,9 +2,11 @@ from profanity_check import predict, predict_prob
 from directoryLoader import directoryFileListBuilder
 from fileAnalyzer import fileAnalyzer
 
-
+'''
+Dev: Alexander Edward Andrews
+Email: alexander.e.andrews.ce@gmail.com
+'''
 def main():
-    #print(predict(['Fucking cunts rabbit orange cheese cold hot red']))
     fileNode = directoryFileListBuilder()
     recursiveCaller(fileNode)
 

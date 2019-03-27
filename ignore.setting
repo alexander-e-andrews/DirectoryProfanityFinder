@@ -1,13 +1,13 @@
-# Write files and directories to ignore
-# Lines starting with ? are ignored
-# Put forward slash: '/' for directories, used for linux and mac users
-# * in front a start with wildcard <- NOT IMPLEMENTED
-# Otherwise accepted as a file
+? Write files and directories to ignore
+? Lines starting with ? are ignored
+? Put forward slash: '/' for directories, used for linux and mac users
+? * in front a start with wildcard <- NOT IMPLEMENTED
+? Otherwise accepted as a file
 ignoreThisFile
-# test comment
+? test comment
 /__pycache__
 /node_modules
-#Removes any hidden directories
+? Removes any hidden directories
 *.
 */.
-# Keep this line, instead of checking for \n,  just assuming its there with this line
+? Keep this line, instead of checking for \n,  just assuming its there with this line

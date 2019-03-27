@@ -1,10 +1,10 @@
-# Ending tag for file names that are accepted
-# Lines starting with ? are ignored
-# These files should be able to be read by python's file reader as text
+? Ending tag for file names that are accepted
+? Lines starting with ? are ignored
+? These files should be able to be read by python's file reader as text
 .txt
 .py
 .js
 .dart
 .md
 .setting
-# Keep this line, instead of checking for \n,  just assuming its there with this line
+? Keep this line, instead of checking for \n,  just assuming its there with this line
