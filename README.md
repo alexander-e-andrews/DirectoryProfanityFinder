@@ -4,8 +4,9 @@ and shows where they happen.
 I built this tool as I often print('profanity') when debugging, and they should be removed before submission
 
 # How to Run
-Add any folders or files to ignore to ignore.setting
-Add file type endings to accepted.settings
+pip install profanity-check   
+Add any folders or files to ignore to ignore.setting   
+Add file type endings to accepted.settings   
 Run main.py and enter the directory you wish to explore, this should be your project directory
 
 In Visual Studio, ctrl + click to directly follow links
